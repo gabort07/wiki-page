@@ -1,0 +1,63 @@
+/*=== General Style ===*/
+
+* {
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  padding: 0 2rem;
+  letter-spacing: .5px;
+}
+
+.discription {
+  margin-top: 1rem;
+}
+
+/*=== Text style ===*/
+
+h1,
+h2 {
+  font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*=== Table design ===*/
+
+
+table thead {
+  text-align: center
+}
+
+@media (min-width: 570px) {
+  
+  #data-table{float: right;}
+}
+
+/* === Discriptions design ===*/
+
+.figure {
+  justify-content: center;
+}
+
+
+/*=== Additional design ===*/
+
+.title::after,
+h1::after,
+h2::after {
+  display: block;
+  content: "";
+  background-color: rgba(0, 0, 0, .2);
+  height: 1px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
